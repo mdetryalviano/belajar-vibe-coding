@@ -11,3 +11,4 @@ export const connectionPool = mysql.createPool(connectionUri);
 export const db = drizzle(connectionPool, { schema, mode: "default" });
 
 export { schema };
+
